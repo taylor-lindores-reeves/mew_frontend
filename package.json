@@ -5,8 +5,8 @@
   "main": "next.config.js",
   "scripts": {
     "dev": "next",
-    "build": "npm run build && next export",
-    "start": "next start",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
     "export": "npm run build && next export"
   },
   "dependencies": {
