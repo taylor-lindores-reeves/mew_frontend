@@ -1,0 +1,55 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/_document.js": 1,
+      "multi private-next-pages/app.js": 2,
+      "multi private-next-pages/index.js": 3,
+      "multi private-next-pages/reset.js": 4,
+      "multi next/dist/pages/_error": 5
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/_app.js": 2,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/_document.js": 3,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/_error.js": 4,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/app.js": 5,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/index.js": 6,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/reset.js": 7,
+      "static/riaS1uqQF9EI9semTNdVu/pages/_app.js": 8,
+      "static/riaS1uqQF9EI9semTNdVu/pages/_document.js": 9,
+      "static/riaS1uqQF9EI9semTNdVu/pages/_error.js": 10,
+      "static/riaS1uqQF9EI9semTNdVu/pages/app.js": 11,
+      "static/riaS1uqQF9EI9semTNdVu/pages/index.js": 12,
+      "static/riaS1uqQF9EI9semTNdVu/pages/reset.js": 13,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/_app.js": 2,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/_document.js": 3,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/_error.js": 4,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/app.js": 5,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/index.js": 6,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/reset.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

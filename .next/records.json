@@ -1,0 +1,59 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! node_modules/next/dist/client/router.js": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "framework": 2,
+      "c27db223146060cea552821469460a250d722529": 3,
+      "bac168f4b32dc86a12db498a53225f2bba20bbe3": 4,
+      "28f89fca0f49a9a9212bb48ef0a889cea7635805": 5,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/_app.js": 6,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/_error.js": 7,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/app.js": 8,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/index.js": 9,
+      "static/9zPNWd0OHI0T-drOdAXYL/pages/reset.js": 10,
+      "static/runtime/main.js": 11,
+      "static/runtime/polyfills.js": 12,
+      "eb9d329c1a8d1c55e88afc7c4ec5569d67de1a73": 13,
+      "ea293b64f50d7f8a6de96021a3f4380af14befc6": 14,
+      "510f2fdbb8055df4faf5d765ba1e08489a9185dc": 15,
+      "static/riaS1uqQF9EI9semTNdVu/pages/_app.js": 16,
+      "static/riaS1uqQF9EI9semTNdVu/pages/_error.js": 17,
+      "static/riaS1uqQF9EI9semTNdVu/pages/app.js": 18,
+      "static/riaS1uqQF9EI9semTNdVu/pages/index.js": 19,
+      "static/riaS1uqQF9EI9semTNdVu/pages/reset.js": 20,
+      "cfd09c85faed48d0f5ead777aede4302b97d861e": 3,
+      "c7c1d736117dd4edbab77cda0910917eda7b003c": 4,
+      "6e4e4bb75b28b3156ae30d5b4a20f68a9c743790": 5,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/_app.js": 6,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/_error.js": 7,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/app.js": 8,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/index.js": 9,
+      "static/AJFr3KW2uB3x62OykXU0n/pages/reset.js": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
