@@ -5,9 +5,9 @@
   "main": "next.config.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "npm run build && next export",
     "start": "next start",
-    "deploy": "npm run build && next export"
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
