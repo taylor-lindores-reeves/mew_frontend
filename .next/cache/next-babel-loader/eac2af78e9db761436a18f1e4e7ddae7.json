@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from \"react\";\nimport UserPanel from \"../components/UserPanel\";\n\nclass App extends Component {\n  render() {\n    return __jsx(UserPanel, null);\n  }\n\n}\n\nexport default App;","map":null,"metadata":{},"sourceType":"module"}

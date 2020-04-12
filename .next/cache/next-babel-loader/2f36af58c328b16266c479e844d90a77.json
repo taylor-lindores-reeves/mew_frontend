@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Auth from \"../components/Auth\";\n\nvar IndexPage = function IndexPage() {\n  return __jsx(Auth, null);\n};\n\nexport default IndexPage;","map":null,"metadata":{},"sourceType":"module"}
