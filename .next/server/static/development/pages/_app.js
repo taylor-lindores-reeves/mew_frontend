@@ -258,7 +258,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var apollo_boost__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(apollo_boost__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const endpoint = `http://localhost:4444`;
+const endpoint = `http://localhost:4444/graphql`;
 
 function createClient({
   headers

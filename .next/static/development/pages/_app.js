@@ -193,7 +193,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var apollo_boost__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! apollo-boost */ "./node_modules/apollo-boost/lib/bundle.esm.js");
 
 
-var endpoint = "http://localhost:4444";
+var endpoint = "http://localhost:4444/graphql";
 
 function createClient(_ref) {
   var headers = _ref.headers;
