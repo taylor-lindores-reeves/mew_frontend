@@ -28,7 +28,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/tlr/Desktop/new/frontend/components/Page.js";
+var _jsxFileName = "/Users/tlr/Documents/Coding/new/frontend/components/Page.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 function _templateObject2() {
@@ -194,16 +194,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var endpoint = "http://localhost:4444/";
+console.log(i);
 
 function createClient(_ref) {
   var headers = _ref.headers;
   return new apollo_boost__WEBPACK_IMPORTED_MODULE_1__["default"]({
-    uri: "https://kookreviews.com/",
-    // uri:
-    //   process.env.NODE_ENV === "production"
-    //     ? process.env.GRAPHQL_ENDPOINT
-    //     : endpoint,
-    // Apparently this doesn't work on Netlify!
+    uri: "https://kookreviews.com",
     request: function request(operation) {
       operation.setContext({
         fetchOptions: {
@@ -31881,7 +31877,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/tlr/Desktop/new/frontend/pages/_app.js";
+var _jsxFileName = "/Users/tlr/Documents/Coding/new/frontend/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -31981,7 +31977,7 @@ function (_App) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/tlr/Desktop/new/frontend/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/tlr/Documents/Coding/new/frontend/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

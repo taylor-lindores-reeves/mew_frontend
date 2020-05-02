@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_reset__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_reset__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "react-helmet");
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/tlr/Desktop/new/frontend/components/Page.js";
+var _jsxFileName = "/Users/tlr/Documents/Coding/new/frontend/components/Page.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -259,17 +259,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const endpoint = `http://localhost:4444/`;
+console.log(i);
 
 function createClient({
   headers
 }) {
   return new apollo_boost__WEBPACK_IMPORTED_MODULE_1___default.a({
-    uri: "https://kookreviews.com/",
-    // uri:
-    //   process.env.NODE_ENV === "production"
-    //     ? process.env.GRAPHQL_ENDPOINT
-    //     : endpoint,
-    // Apparently this doesn't work on Netlify!
+    uri: "https://kookreviews.com",
     request: operation => {
       operation.setContext({
         fetchOptions: {
@@ -599,7 +595,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-apollo */ "react-apollo");
 /* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_apollo__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _lib_withData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/withData */ "./lib/withData.js");
-var _jsxFileName = "/Users/tlr/Desktop/new/frontend/pages/_app.js";
+var _jsxFileName = "/Users/tlr/Documents/Coding/new/frontend/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
