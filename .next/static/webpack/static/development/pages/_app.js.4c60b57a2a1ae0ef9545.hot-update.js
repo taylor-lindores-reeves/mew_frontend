@@ -19,7 +19,12 @@ var endpoint = "http://localhost:4444/";
 function createClient(_ref) {
   var headers = _ref.headers;
   return new apollo_boost__WEBPACK_IMPORTED_MODULE_1__["default"]({
-    uri: "http://167.172.48.167:4466/",
+    uri: "https://kookreviews.com/",
+    // uri:
+    //   process.env.NODE_ENV === "production"
+    //     ? process.env.GRAPHQL_ENDPOINT
+    //     : endpoint,
+    // Apparently this doesn't work on Netlify!
     request: function request(operation) {
       operation.setContext({
         fetchOptions: {
@@ -36,4 +41,4 @@ function createClient(_ref) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.d865ae641c5f97518bab.hot-update.js.map
+//# sourceMappingURL=_app.js.4c60b57a2a1ae0ef9545.hot-update.js.map
